@@ -12,7 +12,7 @@ public class ChatRoomController {
     @GetMapping("/rooms")
     public String getRooms() {
         return "chat/rooms";
-    }
+    } 
  
     @GetMapping("/room")
     public String getRoom(Long chatRoomId, String nickname, Model model) {
